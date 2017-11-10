@@ -29,7 +29,8 @@
 // For more information, see: https://vaadin.com/book/-/page/themes.valo.html
 // Example variants can be copy/pasted from https://vaadin.com/wiki/-/wiki/Main/Valo+Examples
 
-$v-background-color: hsl(201, 50%, 85%);
+//Este es el color del tema, influye sobre todos los elementos:
+$v-background-color: hsl(195, 100%, 99%);
 $v-border-radius: 2px;
 
 @import "../valo/valo.scss";
@@ -38,39 +39,11 @@ $v-border-radius: 2px;
   @include valo;
   
   .mymargins.v-margin-top    {padding-top:    40px;}
-  // Insert your own theme rules here
-  /* White background for the entire UI */
-  // .v-ui {
-  //   background: white;
-  // }
-
-  // /* All labels have white text on black background */
-  // .v-label {
-  //   background: black;
-  //   color: white;
-  //   font-size: 24pt;
-  //   line-height: 24pt;
-  //   padding: 5px;
-  // }
-
-  // /* All buttons have blue caption and some margin */
-  // .v-button{
-  //   margin: 10px;
-  //   background-image: none;
-  //   background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
-  //   // background-color: #F1C204;
-
-  //   /* A nested selector to increase specificity */
-  //   .v-button-caption {
-  //     color: white;
-  //     font-weight: bold;
-  //   }
-  // }
   
   
   
   .fondoImagen{
-  	background-image:url("img/paisaje.jpg");
+  	background-image:url("img/tuimagen.jpg");
   	background-size: cover;
   	background-repeat: no-repeat;
   }
